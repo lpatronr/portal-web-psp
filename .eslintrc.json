@@ -24,6 +24,7 @@
     "no-var": "error",
     "no-console": "error",
     "eqeqeq": "error",
-    "arrow-parens": "error"
+    "arrow-parens": "error",
+    "prefer-const": "error"
   }
 }
