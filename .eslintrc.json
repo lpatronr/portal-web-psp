@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "overrides": [
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-dupe-args": "warn",
+    "no-ex-assign": "warn",
+    "no-fallthrough": "warn",
+    "no-invalid-regexp": "warn",
+    "no-unreachable": "warn",
+    "no-useless-catch": "warn",
+    "no-unsafe-optional-chaining": "warn",
+    "no-unsafe-finally": "warn",
+    "no-unsafe-negation": "warn",
+    "no-var": "error",
+    "no-console": "error",
+    "eqeqeq": "error",
+    "arrow-parens": "error"
+  }
+}
